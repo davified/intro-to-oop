@@ -1,12 +1,12 @@
 class Cat {
-  constructor(name, color, happiness) {
+  constructor(name, color, mood) {
     this.name = name;
     this.color = color;
-    this.happiness = happiness;
+    this.mood = mood;
   }
 
-  setHappiness(newMood) {
-    this.happiness = newMood;
+  setMood(newMood) {
+    this.mood = newMood;
   }
 }
 

@@ -5,15 +5,6 @@ class Circus {
 
   beginShow() {
     // TODO: make each animal make its sound
-    this.animals.forEach(animal => {
-      if (animal instanceof Lion) {
-        animal.roar();
-      } else if (animal instanceof Dog) {
-        animal.woof();
-      } else if (animal instanceof Elephant) {
-        animal.pawoo();
-      }
-    });
   }
 }
 

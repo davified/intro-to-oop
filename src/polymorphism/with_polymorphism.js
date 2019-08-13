@@ -6,7 +6,7 @@ class Circus {
   }
 
   beginShow() {
-    this.animals.forEach(animal => animal.makeSound());
+    
   }
 }
 

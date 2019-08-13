@@ -4,9 +4,7 @@ const Owner = require("./Owner");
 const brownie = new Cat("brownie", "brown", 9);
 const bob = new Owner("bob", brownie);
 
-const changeMoodOfCat = (owner, newMood) => {
-  owner.cat.setHappiness(newMood);
-};
+const changeMoodOfCat = (owner, newMood) => {};
 
 console.log(brownie);
 changeMoodOfCat(bob, 42);
